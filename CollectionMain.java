@@ -209,10 +209,10 @@ public class CollectionMain {
 				{
 				case 1 : { System.out.println("Enter the num of elements");
 						    int size = sc.nextInt();
-							for(int i=0;i<=size;i++)
+							for(int i=0;i<=size-1;i++)
 							{
 								System.out.println("Enter the element");
-								char ele = sc.next().charAt(i);
+								char ele = sc.next().charAt(0);
 								col.add(ele);
 							}
 					break;
